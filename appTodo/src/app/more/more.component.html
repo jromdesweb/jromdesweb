@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-3 text-center">{{task}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>{{descr}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <button class="btn btn-primary" (click)="delete()">Regresar</button>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-outline-danger float-right" (click)="delete()">Finalizar</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+        {{task}}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{descr}}</p>
+      <div class="row">
+          <div class="col">
+            <a [routerLink]="['/more', task]" class="btn btn-primary">Ver más</a>
+          </div>
+          <div class="col">
+              <button class="btn btn-outline-danger" (click)="delete()">Eliminar</button>
+          </div>
+      </div>
+    </div>
+</div>

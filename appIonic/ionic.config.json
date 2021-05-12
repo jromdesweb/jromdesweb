@@ -1,7 +1,0 @@
-{
-  "name": "appIonic",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
